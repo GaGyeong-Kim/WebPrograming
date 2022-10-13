@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <title>취업 정보 계정 만들기</title>
     <style>
-        #message{
+        .message{
             color : red;
             font-size : 10pt;
-            .inline
         }
         #button{
             margin-left : 200px;
@@ -25,49 +24,46 @@
             width : 130px;
             padding-right : 8px;
         }
-        span{
-            color : red;
-        }
     </style>
 </head>
 <body>
 <h2>취업 정보 계정 만들기</h2>
-<div id = 'message'>* 필수 입력 항목</div>
 <form>
+<span class = 'message'>* 필수 입력 항목</span>
     <p class = 'category'>기본 정보</p>
-    <div class = 'information'>이 름<span>*</span></div>
-        <input type = 'text'
-               maxlength = '8'><br>
-    <div class ='information'>이메일<span>*</span></div>
-        <input type = 'email'
-                maxlength = '15'
-                placeholder = 'id@domain_name'><br>
-    <div class = 'information'>암호<span>*</span></div>
+    <div class = 'information'>이 름<span class = 'message'>*</span></div>
+    <input type = 'text'
+           size = '8'><br>
+    <div class ='information'>이메일<span class = 'message'>*</span></div>
+    <input type = 'email'
+           size = '15'
+           placeholder = 'id@domain_name'><br>
+    <div class = 'information'>암호<span class = 'message'>*</span></div>
         <input type = 'password'
-               maxlength = '12'><br>
-    <div class = 'information'>암호 확인<span>*</span></div>
+               size = '12'><br>
+    <div class = 'information'>암호 확인<span class = 'message'>*</span></div>
         <input type = 'password'
-                  maxlength = '12'><br>
-    <div class = 'information'>모바일 폰<span>*</span></div>
+                  size = '12'><br>
+    <div class = 'information'>모바일 폰<span class = 'message'>*</span></div>
         <input type = 'tel'
-                  maxlength = '13'
+                  size = '13'
                   placeholder = '010-0000-0000'><br>
     <div class = 'information'>개인 홈페이지</div>
         <input type = 'url'
-                   maxlength = '30'
+                   size = '30'
                    placeholder = 'http://'><br>
-    <div class = 'information'>주소<span>*</span></div>
+    <div class = 'information'>주소<span class = 'message'>*</span></div>
         <input type= "text"
-               maxlength = '30'>
+               size = '30'>
 
     <p class = 'category'>학 력</p>
-    <div class = 'information'>학교 명<span>*</span></div>
+    <div class = 'information'>학교 명<span class = 'message'>*</span></div>
         <input type = 'text'
-                maxlength = '12'><br>
-    <div class = 'information'>전 공<span>*</span></div>
+                size = '12'><br>
+    <div class = 'information'>전 공<span class = 'message'>*</span></div>
         <input type = 'text'
-               maxlength = '12'><br>
-    <div class = 'information'>졸업 여부<span>*</span></div>
+               size = '12'><br>
+    <div class = 'information'>졸업 여부<span class = 'message'>*</span></div>
         <select name = 'grad'>
             <option value = '---선택---'selected>---선택---</option>
             <option value = '졸업예정'>졸업예정</option>
@@ -79,10 +75,10 @@
     <p class = 'category'>업무 경력</p>
     <div class = 'information'>근무업체명</div>
         <input type = 'text'
-                maxlength = '20'><br>
+                size = '20'><br>
     <div class = 'information'>직 위</div>
         <input type = 'text'
-              maxlength = '10'><br>
+              size = '10'><br>
     <div class = 'information'>담당 업무</div>
         <textarea rows = '10' cols = '80'>이전 업체에서 담당한 업무를 기술하시오.</textarea><br>
     <div class = 'information'>근무년수</div>
