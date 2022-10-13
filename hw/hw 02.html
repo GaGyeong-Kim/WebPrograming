@@ -20,7 +20,7 @@
         }
         .information{
             display:inline-block;
-            margin : 8px;
+            margin-left : 8px;
             text-align : right;
             width : 130px;
             padding-right : 8px;
@@ -32,9 +32,9 @@
 </head>
 <body>
 <h2>취업 정보 계정 만들기</h2>
-<div id = 'message'>* 필수 입력 항목</div><br>
+<div id = 'message'>* 필수 입력 항목</div>
 <form>
-    <div class = 'category'>기본 정보</div>
+    <p class = 'category'>기본 정보</p>
     <div class = 'information'>이 름<span>*</span></div>
         <input type = 'text'
                maxlength = '8'><br>
@@ -58,9 +58,9 @@
                    placeholder = 'http://'><br>
     <div class = 'information'>주소<span>*</span></div>
         <input type= "text"
-               maxlength = '30'><br><br>
+               maxlength = '30'>
 
-    <div class = 'category'>학 력</div>
+    <p class = 'category'>학 력</p>
     <div class = 'information'>학교 명<span>*</span></div>
         <input type = 'text'
                 maxlength = '12'><br>
@@ -74,8 +74,9 @@
             <option value = '졸업'>졸업</option>
         </select><br>
     <div class = 'information'>졸업(예정)일</div>
-        <input type = 'date'><br><br>
-    <div class = 'category'>업무 경력</div>
+        <input type = 'date'>
+
+    <p class = 'category'>업무 경력</p>
     <div class = 'information'>근무업체명</div>
         <input type = 'text'
                 maxlength = '20'><br>
@@ -88,17 +89,16 @@
         <input type = 'number'
                 min = '0'
                 max = '10'
-                step = '0.5'>년<br><br>
-    </span>
-    <div class = 'category'>자기소개서</div>
+                step = '0.5'>년
+
+    <p class = 'category'>자기소개서</p>
     <div class = 'information'>첨부파일</div>
         <input type = 'file'
                 value = '파일 선택'>
-    <div id = 'button'>
-        <br>
+    <p id = 'button'>
         <input type = 'submit'  value = '제출'>
         <input type = 'reset' value ='재작성'>
-    </div>
+    </p>
 </form>
 </body>
 </html>
