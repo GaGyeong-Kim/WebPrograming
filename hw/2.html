@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 03</title>
+<script>
+
+function pascals(numRows) {
+    if (numRows === 0) return [];
+    if (numRows === 1) return [[1]];
+    let result = [];
+    for (let row = 1; row <= numRows; row++) {
+        let arr = [];
+        for (let col = 0; col < row; col++) {
+            if (col === 0 || col === row - 1) {
+                arr.push(1);
+            } else {
+                arr.push((result[row-2][col-1] + result[row-2][col]));
+            }
+        }
+        result.push(arr);
+    }
+    return result;
+}
+</script>
+</head>
+
+<body>
+    <p>2. 파스칼의 삼각형은 다음과 같은 숫자를 가지는 삼각형이다.
+    예: 높이 7인 파스칼 삼각형 (제일 상단의 수는 1, 다음은 1 1을 초기값으로 주어진다.) </p>
+<script>
+    var height = prompt('파스칼의 삼각형의 높이 :');
+    height = parseInt(height)
+
+    var triangle = pascals(height);
+    for(let i = 0; i<triangle.length;i++){
+        document.write(triangle[i] + '<br>');
+    }
+
+
+</script>
+</body>
+</html>
