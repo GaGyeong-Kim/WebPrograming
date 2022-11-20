@@ -8,14 +8,20 @@
 
 <body>
 <p style="font-size: 20pt">HW 03 JavaScript</p>
-<p style = 'font-color: blue;'>1. prompt() 함수를 통해 키보드로 2진수를 입력받아 16진수로 document에 출력하는 자바스크립트
+<p style = 'font-color : blue'> 1. prompt() 함수를 통해 키보드로 2진수를 입력받아 16진수로 document에 출력하는 자바스크립트
     프로그램을 포함하는 웹 문서를 작성하시오. </p>
 <script>
     var num = prompt('2진수를 입력하세요');
     let dec = parseInt(num,2); /*10진수로 변환*/
     let hex = parseInt(num,2).toString(16); /*16진수로 변환*/
-    document.write('<br>'+ '입력값(2진수) ->' + num );
-    document.write('<br>'+ ' 출력값(16진수) ->' + hex.toUpperCase());
+
+    if(isNaN(hex)) {
+        document.write('2진수값이 아닙니다.');
+    }
+    else {
+        document.write('<br>' + '입력값(2진수) ->' + num);
+        document.write('<br>' + ' 출력값(16진수) ->' + hex.toUpperCase());
+    }
 </script>
 
 <script>
@@ -29,19 +35,17 @@
             if (col === 0 || col === row - 1) {
                 arr.push(1);
             } else {
-                arr.push((result[row-2][col-1] +  result[row-2][col]));
+                arr.push((result[row - 2][col - 1] + result[row - 2][col]));
             }
         }
         result.push(arr);
     }
+
     return result;
 }
 </script>
-</head>
 
-<body>
-    <p>2. 파스칼의 삼각형은 다음과 같은 숫자를 가지는 삼각형이다.
-    예: 높이 7인 파스칼 삼각형 (제일 상단의 수는 1, 다음은 1 1을 초기값으로 주어진다.) </p>
+<p>2. 파스칼의 삼각형은 다음과 같은 숫자를 가지는 삼각형이다.</p>
 <script>
     var height = prompt('파스칼의 삼각형의 높이 :');
     height = parseInt(height)
@@ -51,9 +55,6 @@
         document.write(triangle[i] + '<br>');
     }
 
-
-</script>
-</body>
 </script>
 </body>
 </html>
