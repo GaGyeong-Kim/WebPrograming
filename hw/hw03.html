@@ -8,15 +8,16 @@
 
 <body>
 <p style="font-size: 20pt">HW 03 JavaScript</p>
-<p style = 'font-color : blue'> 1. prompt() 함수를 통해 키보드로 2진수를 입력받아 16진수로 document에 출력하는 자바스크립트
+<p> 1. prompt() 함수를 통해 키보드로 2진수를 입력받아 16진수로 document에 출력하는 자바스크립트
     프로그램을 포함하는 웹 문서를 작성하시오. </p>
 <script>
     var num = prompt('2진수를 입력하세요');
     let dec = parseInt(num,2); /*10진수로 변환*/
     let hex = parseInt(num,2).toString(16); /*16진수로 변환*/
 
-    if(isNaN(hex)) {
-        document.write('2진수값이 아닙니다.');
+    if(isNaN(dec))
+    {
+        document.write('2진수가 아닙니다.')
     }
     else {
         document.write('<br>' + '입력값(2진수) ->' + num);
@@ -40,7 +41,6 @@
         }
         result.push(arr);
     }
-
     return result;
 }
 </script>
