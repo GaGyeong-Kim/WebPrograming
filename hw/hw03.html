@@ -29,10 +29,10 @@
     function new_row(prev_row) {
     if (prev_row === 0) return [];
     if (prev_row === 1) return [[1]];
-    let result = [];
-    for (let row = 1; row <= prev_row; row++) {
-        let arr = [];
-        for (let col = 0; col < row; col++) {
+    var result = [];
+    for (var row = 1; row <= prev_row; row++) {
+        var arr = [];
+        for (var col = 0; col < row; col++) {
             if (col === 0 || col === row - 1) {
                 arr.push(1);
             } else {
@@ -51,10 +51,13 @@
     height = parseInt(height)
 
     var triangle = new_row(height);
-    for(let i = 0; i<triangle.length;i++){
-        document.write(triangle[i] + '<br>');
+    for(var i = 0; i<triangle.length;i++){
+        console.log(triangle[i]);
+        for (var j=0; j<triangle[i].length; j++) {
+            document.write(triangle[i][j] + " ");
+        }
+        document.write("<br>");
     }
-
 </script>
 </body>
 </html>
