@@ -3,41 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>HW 03</title>
-<script>
-
-function pascals(numRows) {
-    if (numRows === 0) return [];
-    if (numRows === 1) return [[1]];
-    let result = [];
-    for (let row = 1; row <= numRows; row++) {
-        let arr = [];
-        for (let col = 0; col < row; col++) {
-            if (col === 0 || col === row - 1) {
-                arr.push(1);
-            } else {
-                arr.push((result[row-2][col-1] + result[row-2][col]));
+    <script>
+        function new_row(prev_row) {
+            arr[0] = 1;
+            arr[prev_row - 1] = 1;
+            var temp = new array[n - 1];
+            temp = new_row(height - 1);
+            for (var i = 1; i < arr.length - 1; i++) {
+                document.write(arr[i]);
             }
         }
-        result.push(arr);
-    }
-    return result;
-}
-</script>
+    </script>
+
 </head>
 
 <body>
+<p style="font-size: 20pt">HW 03 JavaScript</p>
+<p style = 'font-color: blue;'>1. prompt() 함수를 통해 키보드로 2진수를 입력받아 16진수로 document에 출력하는 자바스크립트
+    프로그램을 포함하는 웹 문서를 작성하시오. </p>
+<script>
+    var num = prompt('2진수를 입력하세요');
+    let dec = parseInt(num,2); /*10진수로 변환*/
+    let hex = parseInt(num,2).toString(16); /*16진수로 변환*/
+    document.write('<br>'+ '입력값(2진수) ->' + num );
+    document.write('<br>'+ ' 출력값(16진수) ->' + hex.toUpperCase());
+</script>
     <p>2. 파스칼의 삼각형은 다음과 같은 숫자를 가지는 삼각형이다.
     예: 높이 7인 파스칼 삼각형 (제일 상단의 수는 1, 다음은 1 1을 초기값으로 주어진다.) </p>
 <script>
     var height = prompt('파스칼의 삼각형의 높이 :');
-    height = parseInt(height)
+    height = parseInt(height);
+    /*document.write(height+ '<br>');*/
+    var arr = [];
 
-    var triangle = pascals(height);
-    for(let i = 0; i<triangle.length;i++){
-        document.write(triangle[i] + '<br>');
+function new_row(prev_row){
+    if (prev_row === 0) return [];
+    if (prev_row === 1) return [[1]];
+
+    if(prev_row === 2){
+        document.write([1]+'<br>');
+        document.write([1] + ' ' + [1]);
+    }
+    else{
+        arr[0] = 1;
+        arr[height - 1] = 1;
+        var temp = new arr[height-1];
+        temp = new_row(height - 1);
+        for (var i = 1; i < height; i++) {
+            arr[i] = temp[i - 1] + temp[i];
+        }
+    }
+    for(var j = 0; j < arr.length; j++){
+        document.write(arr[j]);
     }
 
 
+    var triangle = new_row(height);
+    for(let i = 0; i<triangle.length;i++){
+        document.write(triangle[i] + '<br>');
+    }
 </script>
 </body>
 </html>
