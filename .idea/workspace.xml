@@ -4,22 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97238736-dfa4-4a1d-89cf-c1dd31e7957f" name="Changes" comment="hw2">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+    <list default="true" id="97238736-dfa4-4a1d-89cf-c1dd31e7957f" name="Changes" comment="Favorite 파일명 변경">
+      <change afterPath="$PROJECT_DIR$/Gaqyeong/webprogram.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gaqyeong/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gaqyeong/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gaqyeong/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Gaqyeong/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gaqyeong/assets/vendor/bootstrap-icons/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gaqyeong/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gaqyeong/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gaqyeong/favorite.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gaqyeong/favorite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gaqyeong/forms/webprogram.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gaqyeong/services.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,14 +45,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw/hw03.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Gaqyeong/forms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\WebPrograming\Gaqyeong\forms" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\WebPrograming\Gaqyeong\assets\img" />
+      <recent name="C:\Users\user\PycharmProjects\WebPrograming\Gaqyeong" />
+      <recent name="C:\Users\user\PycharmProjects\WebPrograming" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +78,19 @@
       <workItem from="1669620782701" duration="6350000" />
       <workItem from="1669627213243" duration="10487000" />
       <workItem from="1669707861935" duration="72000" />
-      <workItem from="1671334218495" duration="9072000" />
+      <workItem from="1671334218495" duration="17395000" />
+      <workItem from="1671373597048" duration="12977000" />
+      <workItem from="1671418711686" duration="524000" />
+      <workItem from="1671419428384" duration="272000" />
+      <workItem from="1671419731378" duration="239000" />
+      <workItem from="1671547325716" duration="1770000" />
+      <workItem from="1671590070335" duration="2993000" />
+      <workItem from="1671634745267" duration="8000" />
+      <workItem from="1671705465484" duration="3000" />
+      <workItem from="1671723480122" duration="7942000" />
+      <workItem from="1671806484661" duration="2920000" />
+      <workItem from="1671902422116" duration="603000" />
+      <workItem from="1672032249816" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="완성이요">
       <created>1669626853398</created>
@@ -104,7 +141,98 @@
       <option name="project" value="LOCAL" />
       <updated>1671334494122</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="웹프 과제 실습">
+      <created>1671344747458</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671344747458</updated>
+    </task>
+    <task id="LOCAL-00009" summary="수정 1">
+      <created>1671344781616</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671344781616</updated>
+    </task>
+    <task id="LOCAL-00010" summary="수정 1">
+      <created>1671344859903</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671344859903</updated>
+    </task>
+    <task id="LOCAL-00011" summary="css 색상 / class : gray, body 수정">
+      <created>1671418928656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671418928656</updated>
+    </task>
+    <task id="LOCAL-00012" summary="navbar 수정">
+      <created>1671419004223</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671419004223</updated>
+    </task>
+    <task id="LOCAL-00013" summary="WebPrograming 과목 소개, 실습, 과제 첨부">
+      <created>1671419116104</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671419116104</updated>
+    </task>
+    <task id="LOCAL-00014" summary="copyright 수정">
+      <created>1671419681263</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671419681263</updated>
+    </task>
+    <task id="LOCAL-00015" summary="학부 생활">
+      <created>1671419768459</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671419768459</updated>
+    </task>
+    <task id="LOCAL-00016" summary="주소 변경(BA Degree)">
+      <created>1671548806731</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671548806731</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Favorite">
+      <created>1672032563378</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672032563378</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Favorite 파일명 변경">
+      <created>1672032632404</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1672032632404</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Favorite 파일명 변경">
+      <created>1672032648302</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1672032648302</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Favorite 파일명 변경">
+      <created>1672032850363</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672032850363</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +255,16 @@
     <MESSAGE value="과제 4 추가" />
     <MESSAGE value="Project 원본" />
     <MESSAGE value="hw2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw2" />
+    <MESSAGE value="웹프 과제 실습" />
+    <MESSAGE value="수정 1" />
+    <MESSAGE value="css 색상 / class : gray, body 수정" />
+    <MESSAGE value="navbar 수정" />
+    <MESSAGE value="WebPrograming 과목 소개, 실습, 과제 첨부" />
+    <MESSAGE value="copyright 수정" />
+    <MESSAGE value="학부 생활" />
+    <MESSAGE value="주소 변경(BA Degree)" />
+    <MESSAGE value="Favorite" />
+    <MESSAGE value="Favorite 파일명 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="Favorite 파일명 변경" />
   </component>
 </project>
