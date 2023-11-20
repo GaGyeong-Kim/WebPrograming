@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97238736-dfa4-4a1d-89cf-c1dd31e7957f" name="Changes" comment="2023년 교과목 추가">
+    <list default="true" id="97238736-dfa4-4a1d-89cf-c1dd31e7957f" name="Changes" comment="사용 가능 툴, 관심사 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gaqyeong/Ba Degree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gaqyeong/Ba Degree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gaqyeong/assets/img/about.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gaqyeong/assets/img/bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gaqyeong/assets/img/hero-bg.jpg" beforeDir="false" />
@@ -99,7 +98,7 @@
       <workItem from="1685171231325" duration="229000" />
       <workItem from="1685171486750" duration="631000" />
       <workItem from="1700026533260" duration="1487000" />
-      <workItem from="1700450125118" duration="351000" />
+      <workItem from="1700450125118" duration="1342000" />
     </task>
     <task id="LOCAL-00001" summary="완성이요">
       <created>1669626853398</created>
@@ -367,7 +366,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700026577953</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="이수 학점, 이수 교과목 추가">
+      <created>1700450596989</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1700450596989</updated>
+    </task>
+    <task id="LOCAL-00040" summary="사용 가능 툴, 관심사 수정">
+      <created>1700451187995</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1700451187995</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,8 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="과제 4 추가" />
-    <MESSAGE value="Project 원본" />
     <MESSAGE value="hw2" />
     <MESSAGE value="웹프 과제 실습" />
     <MESSAGE value="수정 1" />
@@ -410,6 +421,8 @@
     <MESSAGE value="사진 수정" />
     <MESSAGE value="파일 경로 수정" />
     <MESSAGE value="2023년 교과목 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023년 교과목 추가" />
+    <MESSAGE value="이수 학점, 이수 교과목 추가" />
+    <MESSAGE value="사용 가능 툴, 관심사 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="사용 가능 툴, 관심사 수정" />
   </component>
 </project>
